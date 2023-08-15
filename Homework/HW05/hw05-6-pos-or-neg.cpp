@@ -16,3 +16,21 @@
         Negative
 
 */
+#include <stdio.h>
+
+int main() {
+    int num = 0;
+
+    printf("Enter Number :P : ");
+    scanf("%d",&num);
+
+    if ( num < 0 )
+    {
+      printf("Negative");
+    }
+    else if ( num > 0 )
+    {
+        printf("Positive");
+    }
+return 0 ;
+}
